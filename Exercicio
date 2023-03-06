@@ -1,10 +1,10 @@
-Os frameworks de teste para esta plataforma web serão descritos a seguir:
+Para o projeto em questão, sendo uma Plataforma Web, com duas equipes, e com suas características técnicas descritas abaixo, usarei Cypress, Postman, Playwright, justificados a seguir.
 
-. INtegrações com serviços de API de Terceiros:
-Pode ser adequados ao Cypress e Postman, relaizando todo o cenário para rodar em apenas um único teste o Cypress, ele consegue atender esta demanda.
+##. Integrações com serviços de API de Terceiros:
+É adequados utilizar Cypress e Postman, relaizando todos os cenários, rodando em apenas um único teste.
 
-. Front-edn feito com React:
-Para os testes também podem ser utilizados o Cypress, onde pode ser configurado para que ele realize toda a validação dos componentes.
+##. Front-end feito com React:
+Para os testes de front-end também podemos utilizar o Cypress, podendo configurar o mesmo para realizar todas  as validações de componentes.
 
-. Back-end feito parte com .Net e parte Java:
-Pode ser utilizado o Playwright tanto com o .Net Core como Pytest. Pois permite o uso de plugins e também possui aa facilidade em gerar relatórios e obter evidências para acompanhamento dos testes. 
+##. Back-end feito parte com .Net e parte Java:
+Pode ser utilizado o Playwright para os testes back-end com o .Net Core como Pytest. Este permite o uso de plugins e também possui a facilidade em gerar relatórios e obter evidências para o melhor acompanhamento dos testes realizados. 
