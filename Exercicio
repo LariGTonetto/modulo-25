@@ -1,0 +1,10 @@
+Os frameworks de teste para esta plataforma web serão descritos a seguir:
+
+. INtegrações com serviços de API de Terceiros:
+Pode ser adequados ao Cypress e Postman, relaizando todo o cenário para rodar em apenas um único teste o Cypress, ele consegue atender esta demanda.
+
+. Front-edn feito com React:
+Para os testes também podem ser utilizados o Cypress, onde pode ser configurado para que ele realize toda a validação dos componentes.
+
+. Back-end feito parte com .Net e parte Java:
+Pode ser utilizado o Playwright tanto com o .Net Core como Pytest. Pois permite o uso de plugins e também possui aa facilidade em gerar relatórios e obter evidências para acompanhamento dos testes. 
